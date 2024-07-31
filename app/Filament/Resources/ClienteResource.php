@@ -95,7 +95,7 @@ class ClienteResource extends Resource
                 Forms\Components\TextInput::make('validade_cnh')
                         ->mask('99/99/9999')
                         ->maxLength(10)
-                        ->label('Valiade da CNH'),
+                        ->label('Validade da CNH'),
                 Forms\Components\TextInput::make('rg')
                         ->label('RG'),
                 Forms\Components\TextInput::make('exp_rg')
