@@ -56,10 +56,10 @@
 <table style="width: 100%">
   <tr>
     <td><img src="{{ asset('img/logo-sv.png') }}" alt="Image" height="60" width="180"></td>
-    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Locadora Motomaster</p>
-         <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 138 Maracanã - Rio de Janeiro - RJ.<br>
+    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">SV Locadora</p>
+         <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ.<br>
                                                                 Contato: (21)2593-8084<br>
-                                                                Email: fernandapereiracruzz@gmail.com - CNPJ: 49.458.405/0001-67</p>
+                                                                Email: heydercruz@gmail.com - CNPJ: 29.991.346/0001-80</p>
     </td>
 </tr>
 
@@ -217,7 +217,7 @@
 <div>
     <p class="parag">
         Registro: <b>{{$locacao->Veiculo->id}}</b><br><br>
-        Parte, locadora. Locadora SV Ltda CNPJ 49.458.405/0001-67 Endereço: Rua São Francisco Xavier, nº 138 Maracanã - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
+        Parte, locadora. Locadora SV Ltda CNPJ 29.991.346/0001-80 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
@@ -398,7 +398,7 @@
             LOCATÁRIO: {{$locacao->Cliente->nome}}<br><Br><br><br>
 
             ___________________________________________________________<br>
-            LOCADOR: MOTOMASTER CAMPO GRANDE LTDA.
+            LOCADOR: SV LOCADORA DE VEÍCULOS.
 
 
 

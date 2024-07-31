@@ -58,9 +58,10 @@
     <tr>
       <td><img src="{{ asset('img/logo-sv.jpg') }}" alt="Image" height="30" width="90"></td>
       <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Locadora SV</p>
-           <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 138 Maracanã - Rio de Janeiro - RJ.<br>
-                                                    Contato: (21)2593-8084<br>
-                                                    Email: fernandapereiracruzz@gmail.com - CNPJ: 49.458.405/0001-67</p>
+           <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ.<br>
+                                                                    Contato: (21)2593-8084<br>
+                                                                    Email: heydercruz@gmail.com - CNPJ: 29.991.346/0001-80</p>
+</td>
       </td>
   </tr>
 
