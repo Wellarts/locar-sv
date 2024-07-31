@@ -6,6 +6,7 @@ use App\Filament\Resources\ClienteResource\Pages;
 use App\Filament\Resources\ClienteResource\RelationManagers;
 use App\Models\Cliente;
 use App\Models\Estado;
+use Carbon\Carbon;
 use Filament\Forms;
 use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\Grid;
@@ -16,6 +17,7 @@ use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletingScope;
+use Illuminate\Support\Str;
 
 
 class ClienteResource extends Resource
@@ -90,8 +92,9 @@ class ClienteResource extends Resource
                     ->label('Rede Social'),
                 Forms\Components\TextInput::make('cnh')
                         ->label('CNH'),
-                Forms\Components\DatePicker::make('validade_cnh')
-                     //   ->format('d/m/Y')
+                Forms\Components\TextInput::make('validade_cnh')
+                        ->mask('99/99/9999')
+                        ->maxLength(10)
                         ->label('Valiade da CNH'),
                 Forms\Components\TextInput::make('rg')
                         ->label('RG'),
@@ -109,7 +112,19 @@ class ClienteResource extends Resource
                         ->downloadable()
                         ->label('Foto CNH'),
 
-                Forms\Components\DatePicker::make('data_nascimento'),
+                Forms\Components\TextInput::make('data_nascimento')
+                        ->mask('99/99/9999')
+                        ->label('Data de Nascimento')
+                        ->formatStateUsing(function ($state, $context) {
+                            if ($context == 'edit') {
+                                return  Carbon::parse($state)->format('d/m/Y');
+                            }
+                        })
+                        ->dehydrateStateUsing(function ($state) {
+                            $dt = Str::replace('/', '-', $state);
+                            return Carbon::parse($dt)->format('Y-m-d');
+                        }),
+
                 ])
             ]);
     }
