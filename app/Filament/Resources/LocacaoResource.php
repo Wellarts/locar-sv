@@ -72,17 +72,17 @@ class LocacaoResource extends Resource
                                     ->live()
                                     ->required(false)
                                     ->options(Cliente::all()->pluck('nome', 'id')->toArray()),
-                                  /*  ->afterStateUpdated(function ($state) {
-                                        if ($state != null) {
-                                            $cliente = Cliente::find($state);
-                                            Notification::make()
-                                                ->title('ATENÇÃO')
-                                                ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
-                                                ->warning()
-                                                ->persistent()
-                                                ->send();
-                                        }
-                                    }), */
+                                    // ->afterStateUpdated(function ($state) {
+                                    //     if ($state != null) {
+                                    //         $cliente = Cliente::find($state);
+                                    //         Notification::make()
+                                    //             ->title('ATENÇÃO')
+                                    //             ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
+                                    //             ->warning()
+                                    //             ->persistent()
+                                    //             ->send();
+                                    //     }
+                                    // }), 
                                 Forms\Components\Select::make('veiculo_id')
                                     ->required(false)
                                     ->label('Veículo')
