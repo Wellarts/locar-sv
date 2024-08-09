@@ -71,8 +71,8 @@ class LocacaoResource extends Resource
                                     ])
                                     ->live()
                                     ->required(false)
-                                    ->options(Cliente::all()->pluck('nome', 'id')->toArray())
-                                    ->afterStateUpdated(function ($state) {
+                                    ->options(Cliente::all()->pluck('nome', 'id')->toArray()),
+                                  /*  ->afterStateUpdated(function ($state) {
                                         if ($state != null) {
                                             $cliente = Cliente::find($state);
                                             Notification::make()
@@ -82,7 +82,7 @@ class LocacaoResource extends Resource
                                                 ->persistent()
                                                 ->send();
                                         }
-                                    }),
+                                    }), */
                                 Forms\Components\Select::make('veiculo_id')
                                     ->required(false)
                                     ->label('Veículo')
