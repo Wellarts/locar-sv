@@ -33,9 +33,9 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
-            ->favicon(asset('img/SV_Logo_system.png'))
-            ->brandLogo(asset('img/SV_Logo_system.png'))
-            ->brandLogoHeight('3rem')
+            ->favicon(asset('img/SV_Logo_sinaliza.png'))
+            ->brandLogo(asset('img/SV_Logo_sinaliza.png'))
+            ->brandLogoHeight('4rem')
             ->colors([
                 'primary' => Color::Amber,
             ])

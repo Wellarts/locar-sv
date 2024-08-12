@@ -55,8 +55,8 @@
 
 <table style="width: 100%">
   <tr>
-    <td><img src="{{ asset('img/SV_Logo_contrato.png') }}" alt="Image" height="60" width="180"></td>
-    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">SV Locadora</p>
+    <td><img src="{{ asset('img/SV_Logo_sinaliza.png') }}" alt="Image" height="60" width="180"></td>
+    <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Sinaliza Locadora de Veículos</p>
          <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ.<br>
                                                                 Contato: (21)2593-8084<br>
                                                                 Email: sinalizalocadora@gmail.com - CNPJ: 29.991.346/0001-80</p>
@@ -207,7 +207,7 @@
 
 <table style="width: 100%">
     <tr>
-        <td><img src="{{ asset('img/SV_Logo_contrato.png') }}" alt="Image" height="60" width="180"></td>
+        <td><img src="{{ asset('img/SV_Logo_sinaliza.png') }}" alt="Image" height="60" width="180"></td>
       <td> <p style="width: 100%; font-size:20px; font-weight: bold" align="center">Contrato de Locação de Veículos</p>
 
       </td>
@@ -217,7 +217,7 @@
 <div>
     <p class="parag">
         Registro: <b>{{$locacao->Veiculo->id}}</b><br><br>
-        Parte, locadora. Locadora SV Ltda CNPJ 29.991.346/0001-80 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
+        Parte, locadora. Sinaliza Locadora CNPJ 29.991.346/0001-80 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
@@ -398,7 +398,7 @@
             LOCATÁRIO: {{$locacao->Cliente->nome}}<br><Br><br><br>
 
             ___________________________________________________________<br>
-            LOCADOR: SV LOCADORA DE VEÍCULOS.
+            LOCADOR: SINALIZA LOCADORA.
 
 
 
