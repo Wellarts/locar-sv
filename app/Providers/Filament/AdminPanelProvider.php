@@ -33,6 +33,7 @@ class AdminPanelProvider extends PanelProvider
             ->id('admin')
             ->path('admin')
             ->login()
+            ->databaseNotifications()
             ->favicon(asset('img/SV_Logo_sinaliza.png'))
             ->brandLogo(asset('img/SV_Logo_sinaliza.png'))
             ->brandLogoHeight('4rem')
