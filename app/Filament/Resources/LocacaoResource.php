@@ -167,18 +167,18 @@ class LocacaoResource extends Resource
 
 
                                             ])
-                                    ])
-                                    ->afterStateUpdated(function ($state) {
-                                        if ($state != null) {
-                                            $cliente = Cliente::find($state);
-                                            Notification::make()
-                                                ->title('ATENÇÃO')
-                                                ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
-                                                ->warning()
-                                                ->persistent()
-                                                ->send();
-                                        }
-                                    }),
+                                                    ]),
+                                    // ->afterStateUpdated(function ($state) {
+                                    //     if ($state != null) {
+                                    //         $cliente = Cliente::find($state);
+                                    //         Notification::make()
+                                    //             ->title('ATENÇÃO')
+                                    //             ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
+                                    //             ->warning()
+                                    //             ->persistent()
+                                    //             ->send();
+                                    //     }
+                                    // }),
 
                                 Forms\Components\Select::make('veiculo_id')
                                     ->required(false)
@@ -479,7 +479,7 @@ class LocacaoResource extends Resource
                     ->sortable()
                     ->searchable()
                     ->label('ID'),
-                
+
                 Tables\Columns\TextColumn::make('cliente.nome')
                     ->sortable()
                     ->searchable()
