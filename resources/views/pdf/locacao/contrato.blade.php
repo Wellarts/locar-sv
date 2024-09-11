@@ -59,7 +59,7 @@
     <td> <p style="width: 100%; font-size:28px; font-weight: bold;" align="center">Sinaliza Locadora de Veículos</p>
          <p style="font-size:16px;" align="center">Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ.<br>
                                                                 Contato: (21)2593-8084<br>
-                                                                Email: sinalizalocadora@gmail.com - CNPJ: 29.991.346/0001-80</p>
+                                                                Email: sinalizalocadora@gmail.com - CNPJ: 57.034.652/0001-64</p>
     </td>
 </tr>
 
@@ -217,7 +217,7 @@
 <div>
     <p class="parag">
         Registro: <b>{{$locacao->Veiculo->id}}</b><br><br>
-        Parte, locadora. Sinaliza Locadora CNPJ 29.991.346/0001-80 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
+        Parte, locadora. Sinaliza Locadora CNPJ 57.034.652/0001-64 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
