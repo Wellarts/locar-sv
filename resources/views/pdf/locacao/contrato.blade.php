@@ -210,7 +210,7 @@
                 <td>
                     <h3>Inspeção de Veículo</h3>
                     <tr>
-                        <td>( )Buzina.</td>
+                        <td>( ) Buzina.</td>
                     </tr>
                     <tr>
                         <td>( ) Farol</td>
