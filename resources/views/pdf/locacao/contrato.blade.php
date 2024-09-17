@@ -2,42 +2,54 @@
 <html>
 <head>
 
-<style>
-    .retangulo {
-        width: 100%;
-        height: 2.5%;
-        background-color: rgb(222, 225, 226);
-        display: flex;
-        align-items: center;
-        text-align: center;
-    }
-    .texto {
-        margin: auto;
-        font-weight: bold;
-        font-size: 16px;
-
-    }
-    .tabelas {
-        border: 1px;
-        border-style: solid;
-        border-color: grey;
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-
-    #ficha td {
-    border: 1px solid rgb(160 160 160);
-    padding: 8px 10px;
-    }
-
-
-    .tx {
-        line-height:1.5;
-        font-size: 15px;
-    }
-
-</style>
+    <style>
+        .retangulo {
+            width: 100%;
+            height: 2.5%;
+            background-color: rgb(222, 225, 226);
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .texto {
+            margin: auto;
+            font-weight: bold;
+            font-size: 16px;
+    
+        }
+        .tabelas {
+            border: 1px;
+            border-style: solid;
+            border-color: grey;
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+    
+        #ficha td {
+        border: 1px solid rgb(160 160 160);
+        padding: 0px 2px;
+        }
+    
+    
+        .tx {
+            line-height:1.5;
+            font-size: 15px;
+        }
+    
+    </style>
+    
+    <style>
+        .tela {
+            width: 100%;
+            height: 100px;
+            border: 0px solid black;
+            float: center;
+            text-align: center;
+    
+        }
+    </style>
+    
 
 <style>
     .tela {
@@ -190,6 +202,80 @@
     </td>
 </tr>
 </table>
+
+<div class="container">
+    <div class="tela">
+        <table>
+            <tr>
+                <td>
+                    <h3>Inspeção de Veículo</h3>
+                    <tr>
+                        <td>( )Buzina.</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Farol</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Bateria</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Pisca Esquerdo</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Pisca Direito</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Pedaleiras</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Carenagem Esquerda</td>
+                    </tr>
+                    <tr>
+                        <td>( ) Carenagem Direita</td>
+                    </tr>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+<div style="margin-left: 300px">
+    <table style="width: 100%">
+        <tr>
+            <td><p style="margin-left: 90px">Lajedo, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}</p></td>
+        </tr>
+        <br><br><br>
+        <tr>
+            <td>
+                <tr>
+                    <td><center>_________________________________________</center><br>
+                                <center>LOCADOR: SINALIZA LOCADORA.</center>
+                    <p style = "font-size:10px; text-align: center">Proprietário ou representante legal da Empresa</p>
+                    </td>
+                </tr>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <tr>
+                    <td>
+                        <div>
+                           <center> _________________________________________</center><br>
+                                    <center>LOCATÁRIO: {{$locacao->Cliente->nome}}</center>
+                                    
+                        </div>
+                    </td>
+                </tr>
+
+            </td>
+        </tr>
+       </table>
+
+</div>
+<div style="margin-top: 120px">Observações da Inspeção:_________________________________________________________________<br>
+______________________________________________________________________________________</div>
 
 <!-- PÁGINA 2 -->
 
