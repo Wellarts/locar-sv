@@ -474,7 +474,7 @@ ________________________________________________________________________________
         10.7. E, por serem assim, justas e contratadas, as partes firmam o presente instrumento em 02 (duas) vias de igual teor e forma, para que produza
         seus efeitos legais, após ter lido o seu conteúdo ter sido claramente entendido e aceito.<br>
 
-    <div><p class="parag"><b>Demais observações:</b> {{$locacao->obs}}</p></div>    
+    <div><p class="parag"><b>DEMAIS OBSERVAÇÕES:</b> {{$locacao->obs}}</p></div>    
 
 
 
@@ -491,16 +491,5 @@ ________________________________________________________________________________
 
 
         </div>
-
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
