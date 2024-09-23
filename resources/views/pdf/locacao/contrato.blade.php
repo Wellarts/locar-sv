@@ -274,7 +274,7 @@
        </table>
 
 </div>
-<div style="margin-top: 120px">Observações da Inspeção:_________________________________________________________________<br>
+<div style="margin-top: 50px">Observações da Inspeção:_________________________________________________________________<br>
 ______________________________________________________________________________________</div>
 
 <!-- PÁGINA 2 -->
@@ -474,11 +474,13 @@ ________________________________________________________________________________
         10.7. E, por serem assim, justas e contratadas, as partes firmam o presente instrumento em 02 (duas) vias de igual teor e forma, para que produza
         seus efeitos legais, após ter lido o seu conteúdo ter sido claramente entendido e aceito.<br>
 
+    <div><p class="parag"><b>Demais observações:</b> {{$locacao->obs}}</p></div>    
 
 
-</div><br><br>
 
-        <div style="text-align: center; font-size: 12">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br><br>
+</div><br>
+
+        <div style="text-align: center; font-size: 12">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br>
 
             ___________________________________________________________<br>
             LOCATÁRIO: {{$locacao->Cliente->nome}}<br><Br><br><br>
