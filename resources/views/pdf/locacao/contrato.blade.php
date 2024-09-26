@@ -302,7 +302,7 @@ ________________________________________________________________________________
 </div>
 <div>
     <p class="parag">
-        Registro: <b>{{$locacao->Veiculo->id}}</b><br><br>
+        Registro: <b>{{$locacao->id}}</b><br><br>
         Parte, locadora. Sinaliza Locadora CNPJ 57.034.652/0001-64 Endereço: Rua São Francisco Xavier, nº 140 Tijuca - Rio de Janeiro - RJ. denominado LOCADOR.<br><br>
 
 
