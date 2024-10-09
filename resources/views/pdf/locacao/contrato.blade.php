@@ -242,7 +242,7 @@
 <div style="margin-left: 300px">
     <table style="width: 100%">
         <tr>
-            <td><p style="margin-left: 90px">Lajedo, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}</p></td>
+            <td><p style="margin-left: 90px">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}</p></td>
         </tr>
         <br><br><br>
         <tr>
