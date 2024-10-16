@@ -170,18 +170,18 @@ class LocacaoResource extends Resource
 
 
                                             ])
-                                    ])
-                                    ->afterStateUpdated(function ($state) {
-                                        if ($state != null) {
-                                            $cliente = Cliente::find($state);
-                                            Notification::make()
-                                                ->title('ATENÇÃO')
-                                                ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
-                                                ->warning()
-                                                ->persistent()
-                                                ->send();
-                                        }
-                                    }),
+                                                    ]),
+                                    // ->afterStateUpdated(function ($state) {
+                                    //     if ($state != null) {
+                                    //         $cliente = Cliente::find($state);
+                                    //         Notification::make()
+                                    //             ->title('ATENÇÃO')
+                                    //             ->body('A validade da CNH do cliente selecionado: ' . Carbon::parse($cliente->validade_cnh)->format('d/m/Y'))
+                                    //             ->warning()
+                                    //             ->persistent()
+                                    //             ->send();
+                                    //     }
+                                    // }),
 
                                 Forms\Components\Select::make('veiculo_id')
                                     ->required(false)
@@ -239,7 +239,7 @@ class LocacaoResource extends Resource
                                         $diferencaEmDias = $dt_saida->diffInDays($dt_retorno);
                                         // Calculando a diferença em semanas
                                         $diferencaEmSemanas = $diferencaEmDias / 7;
-                                        
+
                                         // Arredondando para baixo para obter o número inteiro de semanas
                                         $semanasCompletas = floor($diferencaEmSemanas);
                                         // Calculando os dias restantes (módulo 7)
@@ -250,7 +250,7 @@ class LocacaoResource extends Resource
                                         $mesesCompleto = floor($mesesCompleto);
                                         //Calculando semanas restantes
                                         $diasRestantesMeses = $diferencaEmDias % 30;
-     
+
                                         Notification::make()
                                             ->title('ATENÇÃO')
                                             ->body(
@@ -258,7 +258,7 @@ class LocacaoResource extends Resource
                                                 <b>'.$qtd_dias.' DIA(AS).</b><br>
                                                 <b>'.$semanasCompletas.' SEMANA(AS) e '.$diasRestantes.' DIA(AS). </b> <br>
                                                 <b>'.$mesesCompleto.' MÊS/MESES  e '.$diasRestantesMeses.' DIA(AS).</b><br>
-                                            ')                                            
+                                            ')
                                             ->danger()
                                             ->persistent()
                                             ->send();
