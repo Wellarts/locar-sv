@@ -294,7 +294,8 @@ ________________________________________________________________________________
 <table style="width: 100%">
     <tr>
         <td><img src="{{ asset('img/SV_Logo_sinaliza.png') }}" alt="Image" height="60" width="180"></td>
-      <td> <p style="width: 100%; font-size:20px; font-weight: bold" align="center">Contrato de Locação de Veículos</p>
+      <td> <p style="width: 100%; font-size:20px; font-weight: bold" align="right">Contrato de Locação de Veículos</p>
+        <p style="width: 100%; font-size:16px; font-weight: bold" align="right; color:LightSlateGray">Plano Minha Moto</p>
 
       </td>
   </tr>
@@ -307,7 +308,7 @@ ________________________________________________________________________________
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
-        1.1- Por meio deste contrato regula-se a locação da motocicleta da marca: <b>{{$locacao->Veiculo->modelo}} - {{$locacao->Veiculo->cor}} - {{$locacao->Veiculo->ano}}.</b>.<br>
+        1.1- Por meio deste contrato regula-se a locação da motocicleta da marca: <b>{{$locacao->Veiculo->modelo}}</b>, placa: <b>{{$locacao->Veiculo->placa}}</b>, cor: <b>{{$locacao->Veiculo->cor}}</b>, ano: <b>{{$locacao->Veiculo->ano}}.</b><br>
 
         1.2. O veículo descrito acima, será utilizado exclusivamente pelo LOCATÁRIO, não sendo permitido sub-rogar para terceiros os direitos por ele obtidos
         contrato do presente, nem permitir que outra pessoa conduza o referido veículo sem a inequívoca e expressa autorização do LOCADOR, sob pena de
@@ -456,7 +457,7 @@ ________________________________________________________________________________
         responsabilizando-se por eventuais indenizações decorrentes do uso e circulação do veículo, cuja responsabilidade perdurará até a efetivação da
         devolução do veículo alternativo.<br>
         CLÁUSULA 9ª – DO FINAL DO PLANO CONTRATADO<br>
-        9.1. O plano minha moto permite ao locatário transferir a moto {{$locacao->Veiculo->modelo}} - {{$locacao->Veiculo->cor}} - {{$locacao->Veiculo->ano}} para seu nome,
+        9.1. O plano minha moto permite ao locatário transferir a moto modelo: <b>{{$locacao->Veiculo->modelo}}</b>, placa: <b>{{$locacao->Veiculo->placa}}</b>, cor: <b>{{$locacao->Veiculo->cor}}</b>, ano: <b>{{$locacao->Veiculo->ano}}.</b> para seu nome,
         no final do plano, com todas as 28 parcelas do plano de locação quitadas, sem nenhuma multa e impostos pendentes, sendo, todos os
         custos da transferência arcados pelo mesmo.<br>
         CLÁUSULA 10ª - DAS DISPOSIÇÕES GERAIS<br>

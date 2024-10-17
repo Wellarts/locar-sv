@@ -15,7 +15,7 @@
             margin: auto;
             font-weight: bold;
             font-size: 16px;
-    
+
         }
         .tabelas {
             border: 1px;
@@ -24,21 +24,21 @@
             width: 100%;
             border-collapse: collapse;
         }
-    
-    
+
+
         #ficha td {
         border: 1px solid rgb(160 160 160);
         padding: 0px 2px;
         }
-    
-    
+
+
         .tx {
             line-height:1.5;
             font-size: 15px;
         }
-    
+
     </style>
-    
+
     <style>
         .tela {
             width: 100%;
@@ -46,10 +46,10 @@
             border: 0px solid black;
             float: center;
             text-align: center;
-    
+
         }
     </style>
-    
+
 
 <style>
     .tela {
@@ -264,7 +264,7 @@
                         <div>
                            <center> _________________________________________</center><br>
                                     <center>LOCATÁRIO: {{$locacao->Cliente->nome}}</center>
-                                    
+
                         </div>
                     </td>
                 </tr>
@@ -295,6 +295,7 @@ ________________________________________________________________________________
     <tr>
         <td><img src="{{ asset('img/SV_Logo_sinaliza.png') }}" alt="Image" height="60" width="180"></td>
       <td> <p style="width: 100%; font-size:20px; font-weight: bold" align="center">Contrato de Locação de Veículos</p>
+           
 
       </td>
   </tr>
@@ -307,8 +308,7 @@ ________________________________________________________________________________
 
 
         CLÁUSULA 1 DO OBJETO DO CONTRATO:<br>
-        1.1- Por meio deste contrato regula-se a locação da motocicleta da marca: <b>{{$locacao->Veiculo->modelo}} - {{$locacao->Veiculo->cor}} - {{$locacao->Veiculo->ano}}.</b>.<br>
-
+        1.1- Por meio deste contrato regula-se a locação da motocicleta da marca: <b>{{$locacao->Veiculo->modelo}}</b>, placa: <b>{{$locacao->Veiculo->placa}}</b>, cor: <b>{{$locacao->Veiculo->cor}}</b>, ano: <b>{{$locacao->Veiculo->ano}}</b>.<br>
         1.2. O veículo descrito acima, será utilizado exclusivamente pelo LOCATÁRIO, não sendo permitido sub-rogar para terceiros os direitos por ele obtidos
         contrato do presente, nem permitir que outra pessoa conduza o referido veículo sem a inequívoca e expressa autorização do LOCADOR, sob pena de
         rescisão contratual, multa de R$ 600,00 (seiscentos reais), bem como, a responsabilização total por qualquer ato ou danos em relação ao veículo,
@@ -474,7 +474,7 @@ ________________________________________________________________________________
         10.7. E, por serem assim, justas e contratadas, as partes firmam o presente instrumento em 02 (duas) vias de igual teor e forma, para que produza
         seus efeitos legais, após ter lido o seu conteúdo ter sido claramente entendido e aceito.<br>
 
-    <div><p class="parag"><b>DEMAIS OBSERVAÇÕES:</b> {{$locacao->obs}}</p></div>    
+    <div><p class="parag"><b>DEMAIS OBSERVAÇÕES:</b> {{$locacao->obs}}</p></div>
 
 
 
