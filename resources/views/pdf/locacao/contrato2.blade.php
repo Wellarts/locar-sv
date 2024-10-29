@@ -491,5 +491,102 @@ ________________________________________________________________________________
 
 
         </div>
+        <div class="break">
+            <div>
+                <p style="width: 100%; font-size:20px; font-weight: bold" align="center">TARIFÁRIO</p>
+            </div>
+            <div id="ag-1730213155042">&nbsp;</div>
+<p><audio class="audio-for-speech"></audio></p>
+<div class="translate-tooltip-mtz translator-hidden">
+<div class="header">
+<div class="header-controls" style="text-align: center;"><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">DECLARA&Ccedil;&Atilde;O DE CONHECIMENTO DOS VALORES CONTRATADOS</span></span></span></div>
+<div class="header-controls" style="text-align: justify;"><br /> <br /> <span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">EU, {{$locacao->Cliente->nome}}, CPF: {{$cpfCnpj}}, RG {{$locacao->Cliente->rg}} - {{$locacao->Cliente->exp_rg}}, CNH {{$locacao->Cliente->cnh}}, RESIDENTE E DOMICILIADO &Agrave; {{$locacao->Cliente->endereco}}, DORAVANTE MENCIONADO COMO LOCATARIO DO VEÍCULO MODELO {{$locacao->Veiculo->modelo}}, MARCA {{$locacao->Veiculo->Marca->nome}}, PLACA {{$locacao->Veiculo->placa}} DECLARO EXPRESSAMENTE TER SIDO INFORMADO A RESPEITO DOS VALORES DE CADA UM DOS ITENS ABAIXO:</span></span></span></div>
+</div>
+</div>
+<p>&nbsp;</p>
+<table style="height: 183px; float: left;" border="1" width="506">
+<tbody>
+<tr>
+<td style="width: 246.588px;">Coparticipa&ccedil;ao na repara&ccedil;ao a terceiros</td>
+<td style="width: 246.588px;">A partir de R$900,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Bloqueio por inadimplencia</td>
+<td style="width: 246.588px;">R$ 30,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Subistitui&ccedil;ao de chave ou miolo</td>
+<td style="width: 246.588px;">R$ 150,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Coparticipa&ccedil;ao furto, roubo e acidente de viculo</td>
+<td style="width: 246.588px;">A partir de R$900,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Apreen&ccedil;ao do veiculo</td>
+<td style="width: 246.588px;">R$700,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Manuten&ccedil;ao sem agendamento</td>
+<td style="width: 246.588px;">R$50,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Mau uso ou conduta</td>
+<td style="width: 246.588px;">R$300,00 por ocorrencia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Retirada de adesivos</td>
+<td style="width: 246.588px;">R$50,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Nao comparecimento da convoca&ccedil;ao da locadora</td>
+<td style="width: 246.588px;">&nbsp;R$20,00 por ocorr&ecirc;ncia</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Valor do cau&ccedil;&atilde;o</td>
+<td style="width: 246.588px;">A partir de R$1000,00 por moto</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Donwgrade</td>
+<td style="width: 246.588px;">R$1000,00 por contrato</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Devolu&ccedil;ao antecipada multa</td>
+<td style="width: 246.588px;">R$500,00, além de reten&ccedil;ao integral do cau&ccedil;&atilde;o.</td>
+</tr>
+<tr>
+<td style="width: 246.588px;">Aumento de raio de atua&ccedil;ao (a cada 50km)</td>
+<td style="width: 246.588px;">R$17,00 por semana</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p>&nbsp;</p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><span style="font-family: Calibri, serif;"><span style="font-size: small;"><span lang="pt-BR">&nbsp;</span></span></span></p>
+<p><br /> </p>
+        </div>
+
+        <div style="text-align: center; font-size: 12">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br>
+
+            ___________________________________________________________<br>
+            LOCATÁRIO: {{$locacao->Cliente->nome}}<br><Br><br>
+
+            ___________________________________________________________<br>
+            LOCADOR: SINALIZA LOCADORA.
+
+
+
+        </div>
 </body>
 </html>
+
