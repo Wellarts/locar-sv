@@ -16,9 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+Route::get('/', function () { return redirect('/admin'); })->name('login');
 
 Route::get('pdf/locacao/{id}',[Contrato::class, 'printLocacao'])->name('imprimirLocacao');
 Route::get('pdf/locacao2/{id}',[Contrato2::class, 'printLocacao'])->name('imprimirLocacao2');
