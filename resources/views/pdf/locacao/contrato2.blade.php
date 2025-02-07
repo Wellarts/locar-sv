@@ -473,12 +473,18 @@ ________________________________________________________________________________
         aconselhar da aplicação do presente CONTRATO, por mais privilegiado que seja ou venha a ser, qualquer Foro.<br>
         10.7. E, por serem assim, justas e contratadas, as partes firmam o presente instrumento em 02 (duas) vias de igual teor e forma, para que produza
         seus efeitos legais, após ter lido o seu conteúdo ter sido claramente entendido e aceito.<br>
+        CLÁUSULA 11ª - DA DEVOLUÇÃO DO CAUÇÃO<br>
+        11.1. Após a devolução do veículo e a verificação de eventuais danos ou pendências financeiras, o valor do caução será restituído ao LOCATÁRIO no prazo máximo de 30 
+        (trinta) dias corridos, contados a partir da data de encerramento do contrato.<br>
+        11.2. A devolução do caução será realizada mediante transferência bancária para a conta indicada pelo LOCATÁRIO, desde que não haja valores a serem abatidos por danos ao 
+        veículo, multas de trânsito, inadimplências ou outros encargos previstos neste contrato.<br>
+        11.3. Caso sejam identificadas pendências, o LOCATÁRIO será notificado, e o valor correspondente será descontado do caução, sendo restituído apenas o saldo remanescente, se houver.
 
     <div><p class="parag"><b>DEMAIS OBSERVAÇÕES:</b> {{$locacao->obs}}</p></div>
 
 
 
-</div><br>
+</div><br><br><br><br><br>
 
         <div style="text-align: center; font-size: 12">Rio de Janeiro, {{ $dataAtual->isoFormat('DD MMMM YYYY') }}<br><br><br>
 
