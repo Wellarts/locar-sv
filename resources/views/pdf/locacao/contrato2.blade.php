@@ -397,7 +397,7 @@ ________________________________________________________________________________
         na ocorrência de acidentes e colisões sofridas na vigência do presente contrato, quando não contempladas pela cobertura da proteção veicular
         contratada para este veículo, independente de dolo, culpa, negligência, imprudência ou imperícia do LOCATÁRIO.<br>
         5.2. Na ocorrência da necessidade do pagamento da cota de participação da proteção veicular, a quantia será integralmente de
-        responsabilidade do LOCATÁRIO, no valor de R$ 900,00 (novecentos reais), 24 (vinte e quatro) horas a contar da comunicação ao LOCADOR.
+        responsabilidade do LOCATÁRIO, no valor de R$ 1500,00 (mil e quinhentos), 24 (vinte e quatro) horas a contar da comunicação ao LOCADOR.
         No caso em que o LOCATÁRIO resilir o presente contrato, 24 (vinte e quatro) horas a contar do momento em que teve ciência da resilição,
         quando realizada pelo LOCADOR.<br>
         5.3. Será de responsabilidade do LOCATÁRIO, o pagamento de taxas e diárias para a liberação do veículo decorrentes ao reboque realizado pelo
@@ -514,7 +514,7 @@ ________________________________________________________________________________
 <tbody>
 <tr>
 <td style="width: 246.588px;">Coparticipa&ccedil;ao na repara&ccedil;ao a terceiros</td>
-<td style="width: 246.588px;">A partir de R$900,00 por ocorr&ecirc;ncia</td>
+<td style="width: 246.588px;">A partir de R$1500,00 por ocorr&ecirc;ncia</td>
 </tr>
 <tr>
 <td style="width: 246.588px;">Bloqueio por inadimplencia</td>
@@ -526,7 +526,7 @@ ________________________________________________________________________________
 </tr>
 <tr>
 <td style="width: 246.588px;">Coparticipa&ccedil;ao furto, roubo e acidente de viculo</td>
-<td style="width: 246.588px;">A partir de R$900,00 por ocorr&ecirc;ncia</td>
+<td style="width: 246.588px;">A partir de R$1500,00 por ocorr&ecirc;ncia</td>
 </tr>
 <tr>
 <td style="width: 246.588px;">Apreen&ccedil;ao do veiculo</td>
